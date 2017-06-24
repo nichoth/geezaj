@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev": "ecstatic ./public --port 8000"
+  },
+  "devDependencies": {
+    "ecstatic": "^2.2.1"
+  }
+}
