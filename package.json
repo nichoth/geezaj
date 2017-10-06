@@ -1,9 +1,12 @@
 {
   "scripts": {
-    "dev": "budo --dir ./public --live --open"
+    "build": "html-inline src/index.html > docs/index.html",
+    "dev": "budo --dir ./src --live --open"
   },
   "devDependencies": {
     "budo": "^10.0.3",
+    "html-inline": "^1.2.0",
     "now": "^7.0.2"
-  }
+  },
+  "private": true
 }

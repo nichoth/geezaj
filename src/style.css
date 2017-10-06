@@ -1,0 +1,46 @@
+h1 {
+    font-weight: 100;
+    font-size: 8em;
+    margin-top: -0.1em;
+    margin-bottom: -0.2em;
+    letter-spacing: 0.26em;
+}
+
+.name {
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    padding-left: 0.5em;
+    margin-bottom: 12em;
+}
+
+.videos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.video {
+    margin: 0 1em;
+    margin-bottom: 4em;
+}
+
+iframe {
+    width: 400;
+}
+
+/*
+@media (max-width: 900px) {
+    .grid-vid {
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .grid-vid:last-child {
+        margin-right: 0;
+    }
+}
+*/
+
