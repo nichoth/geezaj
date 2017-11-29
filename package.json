@@ -1,9 +1,8 @@
 {
   "scripts": {
-    "dev": "budo --dir ./public --live --open"
+    "dev": "budo --dir ./docs --live --open"
   },
   "devDependencies": {
-    "budo": "^10.0.3",
-    "now": "^7.0.2"
+    "budo": "^10.0.3"
   }
 }
